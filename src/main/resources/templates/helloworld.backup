@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymleaf.org">
+<head>
+    <title>Amin Demo Thymleaf template</title>
+    <link rel="stylesheet"
+          th:herf="@{/css/demo.css}"/>
+</head>
+
+<body>
+<p th:text="'Time on the Server is:'+ ${theDate}" class="funny"/>
+
+</body>
+
+</html>
